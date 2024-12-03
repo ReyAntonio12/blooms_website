@@ -23,6 +23,7 @@ body {
 .bloom__header{
     width: 100%;
     padding: 3rem 0;
+    position: relative;
 }
 
 .bloom__navbar {
@@ -76,6 +77,13 @@ body {
 .option__contact:hover .anchor-text {
     transform: translate(-50%, -60%); /* Mueve el texto ligeramente hacia arriba al hacer hover */
   }
+
+.navbar_menu{
+    display: none;
+    font-size: 1.8rem;
+    color: var(--dark-font-color);
+    cursor: pointer;
+}
 
 /* Title and Background */
 

@@ -13,6 +13,7 @@
     <!--Styles-->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/phone.css">
 
     <title>Bloom Cleaning | Home</title>
 </head>
@@ -20,7 +21,7 @@
     <header class="bloom__header">
         <nav class="bloom__navbar">
             <a href="#"><img src="assets/img/logo-bend.webp" alt="Bloom Cleaning Logo" id="BloomLogo"></a>
-            <ul class="navbar__list">
+            <ul class="navbar__list" id="menu">
                 <li><a href="#services" class="navbar__option">Services</a></li>
                 <li><a href="#pricing" class="navbar__option">Pricing</a></li>
                 <li><a href="#testimonials" class="navbar__option">Testimonials</a></li>
@@ -28,6 +29,9 @@
                 <li><a href="#contact" class="navbar__option option__contact">
                     <span class="anchor-text">Contact us</span></a></li>
             </ul>
+            <div class="navbar_menu" id="hamburger">
+                <ion-icon name="menu-outline" class="navbar_menu-icon"></ion-icon>
+            </div>
         </nav>
     </header>
     <main class="bloom__main-content">
@@ -266,5 +270,6 @@
             </p>
         </section>
     </footer>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
